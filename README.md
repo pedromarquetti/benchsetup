@@ -10,6 +10,10 @@
 
 `sudo docker build --no-cache -t testbench . && sudo docker run -it testbench`
 
+## Instalando 
+
+você pode colar o comando `curl -L https://raw.githubusercontent.com/pedromarquetti/benchsetup/master/setup.sh | bash` no terminal
+
 ## O que irei adicionar
 
 1. script SHELL customizado
