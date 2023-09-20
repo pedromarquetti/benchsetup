@@ -67,7 +67,7 @@ function updater(){
 }
 function initial_install(){
     print_green "instalando ferramentas disponíveis com APT..."
-    sudo apt install -y git wget curl python3-pip xsensors python3-toolz lm-sensors stress-ng 2to3 btop unzip python3-lib2to3 
+    sudo apt install -y git wget curl python3-pip xsensors python3-toolz lm-sensors stress-ng 2to3 btop unzip python3-tk python3-lib2to3 
 }
 function get_gpu_tests(){
     print_cyan "baixando MemTest (para GPUs)"
