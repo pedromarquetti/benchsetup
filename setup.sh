@@ -63,7 +63,7 @@ function setup_dirs(){
 function updater(){
     print_green "atualizando..."
     sudo apt update &&
-    sudo apt -y upgrade 
+    sudo apt upgrade -y
 }
 function initial_install(){
     print_green "instalando ferramentas disponíveis com APT..."
